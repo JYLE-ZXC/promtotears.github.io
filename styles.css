@@ -11,14 +11,6 @@ body {
   background: #eee;
 }
 
-img {
-  position: initial;
-  padding: 15px;
-  margin: 10px;
-  width: 500px;
-  height: auto;
-}
-
 h1 {
   font-size: 40px;
   color: hsl(0, 0%, 96%);
@@ -38,27 +30,6 @@ h3 {
 
 p {
   font-size: 18px;
-}
-
-.navigation {
-  display: inline-flex;
-  flex-flow: row wrap;
-  justify-content: flex-end;
-
-  list-style: none;
-  padding: 5px;
-}
-
-.navigation a {
-  text-decoration: none;
-  display: block;
-  padding: 1em;
-  color: hsl(0, 0%, 50%);
-}
-
-.navigation a:hover {
-  background-color: hsl(0, 0%, 95%);
-  color: hsl(0, 0%, 50%);
 }
 
 .container {
